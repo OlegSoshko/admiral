@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import { FontsVTBGroup } from '@admiral-ds/react-ui'
 
-import { GraphTable } from './Table';
+import { Test } from './Table';
 
 import './App.css';
 
@@ -10,8 +11,9 @@ function App() {
 
   return (
     <div className='table'>
+      < FontsVTBGroup />
       <h1>Vite + React</h1>
-      <GraphTable />
+      <Test />
     </div>
   );
 }
